@@ -10,6 +10,7 @@ A app to connect PlanetScale database events to Slack notifications.
 - Set up a [Slack App](https://api.slack.com/quickstart) with `chat:write` and `chat:write.customize` scopes
 - [Configure webhooks](https://planetscale.com/docs/concepts/webhooks) for your PlanetScale database
 - Set the following environment variables in Vercel:
+  - `ENABLE_EXPERIMENTAL_COREPACK`: Set it to `1` to allow Vercel to build with pnpm 10
   - `PLANETSCALE_WEBHOOK_SECRET`: The secret used to verify webhook requests
   - `SLACK_BOT_TOKEN`: The URL of your Slack app
   - `SLACK_CHANNEL`: The name of the Slack channel to send messages to
