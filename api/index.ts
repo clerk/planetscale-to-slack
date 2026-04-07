@@ -148,8 +148,3 @@ if (process.env.MODE && process.env.MODE == 'standalone') {
 }
 
 export default app;
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
