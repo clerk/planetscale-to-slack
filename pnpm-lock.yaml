@@ -21,6 +21,9 @@ importers:
         specifier: ^4.19.2
         version: 4.19.2
     devDependencies:
+      '@types/body-parser':
+        specifier: ^1.19.6
+        version: 1.19.6
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.21
@@ -45,8 +48,8 @@ packages:
     resolution: {integrity: sha512-n2KfnlqjaPJ5y98nU5Nn0UwTIxafLwQSQIOLpsQXKGYDF24S/ap5Ebv+ifVMtY+vIJBqj1q2+l3W9bpFHeiJ2A==}
     engines: {node: '>= 18', npm: '>= 8.6.0'}
 
-  '@types/body-parser@1.19.5':
-    resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
+  '@types/body-parser@1.19.6':
+    resolution: {integrity: sha512-HLFeCYgz89uk22N5Qg3dvGvsv46B8GLvKKo1zKG4NybA8U2DiEO3w9lqGg29t/tfLRJpJ6iQxnVw4OnB7MoM9g==}
 
   '@types/connect@3.4.38':
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
@@ -536,7 +539,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@types/body-parser@1.19.5':
+  '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
       '@types/node': 20.14.10
@@ -554,7 +557,7 @@ snapshots:
 
   '@types/express@4.17.21':
     dependencies:
-      '@types/body-parser': 1.19.5
+      '@types/body-parser': 1.19.6
       '@types/express-serve-static-core': 4.19.5
       '@types/qs': 6.9.15
       '@types/serve-static': 1.15.7
